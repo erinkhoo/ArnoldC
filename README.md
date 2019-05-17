@@ -1,25 +1,29 @@
-#ArnoldC
+# ArnoldC
 
 Programming language based on the one-liners of Arnold Schwarzenegger.
 
-##Motivation
+## Motivation
 
 Although the one-liners of Arnold Schwarzenegger are fairly well known the true semantics of the uttering is yet to be understood. This project tries to discover new meanings from the Arnold movies with the means of computer science.
 
-##HelloWorld.arnoldc
+## HelloWorld.arnoldc
 
 	IT'S SHOWTIME
 	TALK TO THE HAND "hello world"
 	YOU HAVE BEEN TERMINATED
 
-##Quick Start
+## Quick Start
 
 	wget http://lhartikk.github.io/ArnoldC.jar
 	echo -e "IT'S SHOWTIME\nTALK TO THE HAND \"hello world\"\nYOU HAVE BEEN TERMINATED" > hello.arnoldc
 	java -jar ArnoldC.jar hello.arnoldc
 	java hello
 
-##Brief overview of the keywords
+To create some "audible" output you can try the -declaim option:
+
+	java -jar ArnoldC.jar -declaim hello.arnoldc
+
+## Brief overview of the keywords
 
 Check the [wiki](http://github.com/lhartikk/ArnoldC/wiki/ArnoldC) for more details
 
@@ -31,7 +35,7 @@ Check the [wiki](http://github.com/lhartikk/ArnoldC/wiki/ArnoldC) for more detai
 
 [Else](http://www.youtube.com/watch?v=c4psKYpfnYs) `BULLSHIT`
 
-[EndIf](http://www.youtube.com/watch?v=bTr-ahLNf2A) `YOU HAVE NO RESPECT FOR LOGIC`
+[EndIf](http://youtu.be/uGstM8QMCjQ?t=1m23s) `YOU HAVE NO RESPECT FOR LOGIC`
 
 [While](http://www.youtube.com/watch?v=wDztrw_0N8M) `STICK AROUND`
 
@@ -63,7 +67,7 @@ PlusOperator `GET UP`
 
 [Return](http://www.youtube.com/watch?v=-YEG9DgRHhA) `I'LL BE BACK`
 
-[EndMethodDeclaration](http://www.youtube.com/watch?v=KGsTNugVctI) `HASTA LA VISTA, BABY`
+[EndMethodDeclaration](http://www.youtube.com/watch?v=Hhm7aWp8gvc) `HASTA LA VISTA, BABY`
 
 [CallMethod](http://www.youtube.com/watch?v=HGhP3p6lI3U) `DO IT NOW`
 
